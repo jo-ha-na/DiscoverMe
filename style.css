@@ -12,16 +12,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: blueviolet; /* Un fond vibrant pour un impact visuel */
+    background-color: blueviolet; 
     flex-direction: column;
 }
 
 section {
     width: 600px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    background: rgba(255, 255, 255, 0.1); 
     border-radius: 15px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ section {
 
 section .question {
     width: 100%;
-    background-color: rgba(0, 0, 139, 0.5); /* Dark blue semi-transparent background for question */
+    background-color: rgba(0, 0, 139, 0.5); 
     border-radius: 10px;
     padding: 15px;
     display: flex;
@@ -42,7 +42,7 @@ section .question {
 
 .message {
     color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black for messages */
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 10px 20px;
     margin-bottom: 20px;
     border-radius: 10px;
@@ -54,15 +54,15 @@ section input[type="text"] {
     width: 100%;
     padding: 12px;
     border-radius: 10px;
-    background-color: aliceblue; /* Light blue background for input */
-    color: darkblue; /* Text color */
-    border: 2px solid darkblue; /* Matching border */
+    background-color: aliceblue; 
+    color: darkblue;
+    border: 2px solid darkblue; 
 }
 
 section input[type="submit"] {
     padding: 10px 65px;
     border-radius: 10px;
-    background-color: darkblue; /* Consistent blue theme for buttons */
+    background-color: darkblue; 
     color: white;
     cursor: pointer;
     text-transform: uppercase;
@@ -71,8 +71,8 @@ section input[type="submit"] {
 }
 
 section input[type="submit"]:hover {
-    background-color: navy; /* A darker blue on hover */
-    letter-spacing: 2px; /* Make it pop a bit more on hover */
+    background-color: navy;
+    letter-spacing: 2px; 
 }
 
 .score {
@@ -88,8 +88,7 @@ a {
     padding: 10px 25px;
     border-radius: 5px;
     margin-top: 25px;
-    display: block; /* Make sure it's always visible for restarting the quiz */
-}
+    display: block; }
 
 #character {
     position: fixed;
