@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn things about me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="character" style="display:none;">
+        <img src="perso.png" alt="Character">
+    </div>
+    <p class="message">Amusez-vous</p>
+    <section>
+        <div class="question">
+            <h2 id="question">Quelle est ma couleur préférée?</h2>
+        </div>
+        <input type="text" id="answer" placeholder="Votre réponse ici">
+        <input type="submit" value="Vérifier" onclick="verifier()">
+    </section>
+    <p class="score"></p>
+    <a href="index.html" class="link">Recommencer</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

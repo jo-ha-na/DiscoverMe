@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet; /* Un fond vibrant pour un impact visuel */
+    flex-direction: column;
+}
+
+section {
+    width: 600px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Soft shadow for depth */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section .question {
+    width: 100%;
+    background-color: rgba(0, 0, 139, 0.5); /* Dark blue semi-transparent background for question */
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.message {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent black for messages */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+section input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: aliceblue; /* Light blue background for input */
+    color: darkblue; /* Text color */
+    border: 2px solid darkblue; /* Matching border */
+}
+
+section input[type="submit"] {
+    padding: 10px 65px;
+    border-radius: 10px;
+    background-color: darkblue; /* Consistent blue theme for buttons */
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+section input[type="submit"]:hover {
+    background-color: navy; /* A darker blue on hover */
+    letter-spacing: 2px; /* Make it pop a bit more on hover */
+}
+
+.score {
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid aliceblue;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 25px;
+    display: block; /* Make sure it's always visible for restarting the quiz */
+}
+
+#character {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    z-index: 1000;
+    transition: transform 0.5s ease;
+}
+
+#character img {
+    width: 100%;
+    display: block;
+}
